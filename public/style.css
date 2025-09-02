@@ -1,0 +1,60 @@
+/* Center the form in the page */
+body {
+  background-color: #f8d451;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Make form look like a container */
+.login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;            /* Flex for vertical alignment */
+  flex-direction: column;
+  align-items: center;      /* Center horizontally */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.login-form h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+/* Input fields */
+.login-form input {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.login-form button {
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #f8d451;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #e0c23c;
+}
