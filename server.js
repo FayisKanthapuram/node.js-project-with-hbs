@@ -26,14 +26,7 @@ app.use(
   })
 );
 
-fs.readFile("package.json", "utf-8", (err, data) => {
-  if (err) {
-    console.log("Something Wrong...");
-  } else {
-    console.log(data);
-  }
-});
-console.log(readFile);
+
 
 app.use(nocache());
 
